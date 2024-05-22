@@ -4,9 +4,9 @@ import React, { useState } from 'react'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Navbar from './Components/navbar'
 import HeroSection from './Components/HeroSection'
 import { ExpenseProvider } from './Context/ExpenseContext';
+import Navbar from './Components/Navbar';
 
 
 const App = () => {
